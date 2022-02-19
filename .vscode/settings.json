@@ -1,0 +1,18 @@
+{
+	"editor.wordWrap": "on",
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "'Apercu Mono', 'JetBrains Mono'",
+	"editor.fontWeight": "600",
+	"editor.tabSize": 4,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": null,
+	"[php]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.maxTokenizationLineLength": 3500
+	}
+}

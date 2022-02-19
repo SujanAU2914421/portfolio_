@@ -25,6 +25,23 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+    <!-- global css -->
+    <style type="text/css">
+      @font-face {
+        font-family: Inter Var;
+        src: url(./fonts/Inter-roman.var.woff2);
+      }
+
+      *, *::after, *::before {
+            font-feature-settings: "cv02","cv03","cv04","cv11";
+            -webkit-font-smoothing: antialiased;
+            font-family: 'Inter Var', sans-serif;
+        }
+    </style>
+
+    <!-- tailwindcss implimentation -->
+    <link rel="stylesheet" href="./css/tailwind.css" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
